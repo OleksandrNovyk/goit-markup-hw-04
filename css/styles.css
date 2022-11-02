@@ -176,6 +176,12 @@ img {
 .hero {
   text-align: center;
   background-color: var(--hero-title-color);
+  background-image: linear gradient
+      (to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/Bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -189,9 +195,6 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-image: linear gradient
-      (to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/bg.jpg);
 }
 .specialities {
   font-weight: 700;
