@@ -143,19 +143,8 @@ img {
   color: var(--third-title-color);
   font-weight: 500;
 }
-
-.link-secondary {
+.link.current {
   color: var(--third-title-color);
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
-.link-secondary:hover,
-.link-secondary:focus {
-  color: var(--third-title-color);
-  font-weight: 500;
 }
 
 .link-title {
