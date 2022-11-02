@@ -189,6 +189,9 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  background-image: linear gradient
+      (to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bg.jpg);
 }
 .specialities {
   font-weight: 700;
