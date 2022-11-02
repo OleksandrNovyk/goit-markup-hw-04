@@ -174,11 +174,19 @@ img {
 /*Герой*/
 /*Main*/
 .hero {
-  text-align: center;
   background-color: var(--hero-title-color);
-  background-image: linear gradient
-      (to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/Bg.jpg);
+  text-align: center;
+  padding: 200px 0;
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -202,6 +210,13 @@ img {
   line-height: 1.14;
   color: var(--main-text-color);
   margin-bottom: 10px;
+}
+
+.specialities-icons {
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  background-color: var(--section-team-color);
+  border-radius: 4px;
 }
 
 .paragraph-title {
