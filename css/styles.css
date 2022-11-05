@@ -227,14 +227,19 @@ img {
 }
 
 .features-icon {
-  margin-bottom: 30px;
-  padding: 25px 100px;
   background-color: var(--section-team-color);
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 25px 0;
+  p
+  
 }
 
 .features.list{
-display: flex;
+  display: flex;
   flex-direction: row;
   column-gap: 30px;
 }
